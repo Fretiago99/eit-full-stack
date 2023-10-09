@@ -1,0 +1,30 @@
+body {
+    background-color: #31a18a;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+}
+h1 {
+
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+}
+
+div {
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    
+    
+}
+
+.imagen {
+
+    border: 10px solid white;
+    margin: 7px;
+}

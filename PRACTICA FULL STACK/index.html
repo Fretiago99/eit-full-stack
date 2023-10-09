@@ -5,10 +5,11 @@
     <meta  http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 3</title>
+    <link rel="stylesheet" href="/PRACTICA FULL STACK/style/estilos.css">
 
 </head>
 <body>
-    <header>
+    <header class="header-container">
         <h1> CLASE DE ENLACES </h1>
         <nav>
           <ul>
@@ -22,7 +23,7 @@
                 </a>
             </li>
             <li>
-                <a href="#nosotros">Sobre nosotros</a>
+                <a href="/PRACTICA FULL STACK/page/nosotros.html">Sobre nosotros</a>
             </li>
             <li>
                 <a href="#clientes">Nuestros Clientes</a>
@@ -30,23 +31,84 @@
             <li>
                 <a href="#contactanos">Contactanos</a>
             </li>
+            <li>
+                <a href="#galery">Galeria</a>
+            </li>
           </ul>  
         </nav>   
     </header>
     <div>
 
-        <section id="nosotros" style="height: 600px; background-color: aquamarine;">
+        <section id="nosotros" >
             <h2>Sobre Nosotros</h2>
-            <img 
+            <div class="scd-1">
+                
+                <img 
                 src="data:image/png;base64,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" 
                 alt="Logo de educacion it"
                 width="500px;">
-        </section>
-        <section id="clientes" style="height: 600px; background-color: darkgoldenrod;">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, libero quibusdam assumenda ducimus deleniti neque non culpa possimus aspernatur veritatis doloribus nostrum quia repudiandae, consequuntur quidem, animi fugit dolores repellat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam odio amet nemo dicta. Officiis maxime molestias, corrupti voluptatibus eius vero voluptates harum vitae dolore? Dolorem dolorum aspernatur tempora quia.
+                    </p>
+                    <ul>
+                        <li>Argentina</li>
+                        <li>Colombia</li>
+                        <li>Chile</li>
+                        <li>Canada</li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+        <section id="clientes" >
             <h2>Nuestros Clientes</h2>
+            <img 
+            src="https://thumbs.dreamstime.com/b/gente-de-los-trabajadores-13920282.jpg" 
+            alt="Trabajadores que estan posando"
+            >
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, perspiciatis doloremque sed aliquid dignissimos inventore harum minima, accusamus quibusdam, quidem dolor ea voluptas architecto vero libero corporis expedita? Eaque, dolor.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos molestias beatae fuga, veritatis adipisci vitae esse. Voluptate harum accusamus quos dolorum molestiae quam. Quas alias iusto quos dolores est saepe.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis ducimus fuga corporis libero ratione iste voluptas. Magni quo, fugiat quasi ratione quis tenetur tempore dolor enim, itaque illo pariatur!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, autem ullam. Provident magnam excepturi, numquam fugiat quaerat dolore harum. Beatae aut adipisci tenetur nam optio odit sit error eius doloremque?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quos iusto debitis expedita exercitationem a maiores odio similique sunt nam quasi earum at natus, sapiente ipsa libero, cupiditate sequi perferendis.
+            </p>
         </section>
-        <section id="contactanos" style="height: 600px;background-color: chocolate;"> 
+        <section id="contactanos" > 
             <h2>Contactanos</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ea aperiam quam nesciunt ipsa corrupti assumenda dolore exercitationem? Aliquid, doloremque labore recusandae ullam neque laboriosam ipsam consectetur veritatis ratione adipisci!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dicta fuga tempora eos exercitationem magni, possimus perspiciatis, laudantium nulla blanditiis animi voluptate cumque quas? Quisquam facilis esse at odio adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel veritatis dolor voluptas odit! Provident sit, officia suscipit blanditiis voluptates facere minus earum natus corporis ipsa, recusandae quidem, fuga cum non.
+            </p>
+        </section>
+        <section id="galery">
+            <h2>Galeria</h2>
+            <div class="galery-container">
+               <img src=
+               "/PRACTICA FULL STACK/img/descarga.jfif" 
+               alt=""
+               class="image-galery">
+               <img src=
+               "/PRACTICA FULL STACK/img/descarga (1).jfif" 
+               alt=""
+               class="image-galery">
+               <img src=
+               "/PRACTICA FULL STACK/img/descarga (2).jfif" 
+               alt=""
+               class="image-galery">
+               <img src=
+               "/PRACTICA FULL STACK/img/images.jfif" 
+               alt=""
+               class="image-galery">
+               <img src=
+               "/PRACTICA FULL STACK/img/images (1).jfif" 
+               alt=""
+               class="image-galery">
+
+            </div>
+
         </section>
     
     </div>
