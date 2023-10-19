@@ -1,0 +1,39 @@
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;  
+}
+
+a :hover {
+    color: rgb(94, 210, 226);
+}
+
+ul :hover {
+    color: rgb(94, 210, 226);
+    font-size: 1.2rem;
+    
+}
+
+ul li a :hover {
+
+    border-color: black;
+}
+ 

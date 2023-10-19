@@ -1,0 +1,40 @@
+
+body {
+    margin: 10px;
+    color: #695A4F;
+    font-family: Verdana, Arial, sans-serif;
+    align-items: center;
+}
+
+/* header {
+    width: 97vw;
+} */
+
+img {
+    width: 100%;
+}
+
+h3 {
+    background-color: #795549;
+    color: #E8D1C1;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    color: #DF723A;
+    font-weight: bold;
+}
+
+.section-5 h3 {
+    color: #D5AF4A;
+}
+
+.section-4 .link-1 {
+    color: cornflowerblue;
+}
+.section-4 .link-2 {
+    color: crimson;
+}
