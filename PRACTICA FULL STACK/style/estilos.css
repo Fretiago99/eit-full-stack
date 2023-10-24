@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@1,300&family=Fjalla+One&family=Nosifer&display=swap');
+
 body {
     margin:0;
     margin-top: 5.2rem;
 }
 
+h1 {
+    font-family: 'Nosifer', sans-serif;
+    font-size: 1.6rem;
+}
+
+a, p, h2 {
+    font-family: 'Averia Sans Libre', sans-serif;
+}
 .scd-1 {
     display: flex;
 }

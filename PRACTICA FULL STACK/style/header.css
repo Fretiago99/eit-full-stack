@@ -26,10 +26,9 @@ a :hover {
     color: rgb(94, 210, 226);
 }
 
-ul :hover {
+header ul :hover {
     color: rgb(94, 210, 226);
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;   
 }
 
 ul li a :hover {
